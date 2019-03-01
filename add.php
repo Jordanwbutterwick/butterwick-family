@@ -16,7 +16,7 @@
         <h3>You can put your own or anyone else's information into the form below and press submit to send to the database. You will know the submission was successful from the message that gets displayed after a submission.</h3>
     </div>
     <div class="form">
-    <form action="insert.php" method="post">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <p>
         <label for="firstname">First Name:</label>
         <input type="text" name="firstname" id="firstname">
