@@ -1,7 +1,9 @@
     <header>
-        <nav>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="add.php">Add a Family Member</a></li>
-            <li><a href="tree.php">Family Tree</a></li>
+        <nav>           
+            <ul class="navbar">
+                <li><a href="./index.php" class="link">Home</a></li>
+                <li><a href="./add.php" class="link">Add a Family Member</a></li>
+                <li><a href="./tree.php" class="link">Family Tree</a></li>
+            </ul>
         </nav>
     </header>
