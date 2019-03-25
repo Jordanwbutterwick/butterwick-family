@@ -5,4 +5,4 @@
       href="https://fonts.googleapis.com/css?family=Cormorant Garamond|Lato"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">

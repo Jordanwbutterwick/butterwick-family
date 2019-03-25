@@ -29,6 +29,13 @@
                 <input type="text" name="email" id="emailaddress"></p>
                 <p><label for="phone">Phone Number:</label>
                 <input type="text" name="phone" id="phone"></p>
+                <p><label for="gender">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="1">Male</option>
+                        <option value="0">Female</option>
+                    </select></p>
+                
+		
                 <input type="submit" value="Submit">
             </form>
             <?php include_once("./php/functions.php");

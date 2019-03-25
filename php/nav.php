@@ -7,3 +7,11 @@
             </ul>
         </nav>
     </header>
+    <main>
+    <div class="greeting"><h2 id="greeting">
+    <?php 
+    include("variables.php"); 
+    include("functions.php");
+	print(giveGreeting()); ?>
+    </h2></div>
+    
