@@ -30,28 +30,30 @@
             $this->spouse = $spouse;
             $this->gender = $gender;
         }
+        
 
         public function __toString(){
             return $this->lastname_madienname .", " .$this->firstname ." -- " . $this->email;
         }
-        // I am returing a full name string programatically
+
+
         public function printFullName() {
             return $this->firstname . " ". $this->lastname_madienname;
         }
 
-        // I am setting a new property called fullname with my Full name.
+
         public function makeFullName() {
             $this->fullname = $this->firstname . " ". $this->lastname_madienname;
         }
 
-        // Retrieving the full name from the fullname property
+
         public function getFullName() {
             return $this->fullname;
         }
+
 
         public function printContactInfo(){
             $contact = "<h5>".$this->email . $this->phone . "</h5>";
             return $contact;
         }
     }
-?>
