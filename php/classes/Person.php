@@ -1,18 +1,18 @@
 <?php
     class Person {
-        public $id = "";
-        public $firstname = "";
-        public $lastname_madienname = "";
-        public $born_into_family = "";
-        public $birthdate = "";
-        public $deathdate = "";
-        public $birthplace = "";
-        public $email = "";
-        public $phone = "";
-        public $father = "";
-        public $mother = "";
-        public $spouse = "";
-        public $gender = "";
+        protected $id = "";
+        protected $firstname = "";
+        protected $lastname_madienname = "";
+        protected $born_into_family = "";
+        protected $birthdate = "";
+        protected $deathdate = "";
+        protected $birthplace = "";
+        protected $email = "";
+        protected $phone = "";
+        protected $father = "";
+        protected $mother = "";
+        protected $spouse = "";
+        protected $gender = "";
         protected $fullname = NULL;
 
         public function __construct($first, $last, $born, $birth, $death, $place, $email, $phone, $father, $mother, $spouse, $gender, $id=NULL){
